@@ -1,0 +1,20 @@
+# setting variables for prices and a list for ship items
+menulist = ["coffee","muffin"]
+muffprice = 4.00
+coffeeprice = 5.00
+#prompt for customer or user displaying shop items and price 
+print("Hello and welcome to The Coffee Muffin Shop, what would you like today.")
+print("menu.........................price")
+print("coffee.........................$5")
+print("muffin..........................$4")
+# setting a variable for the customers choice and amount they want inside of a while loop 
+while true :
+  order = order.lower(input("what would you like"))
+  amount = Int(input("how many would you like"))
+  for x in menulist :
+    if order == menulist[0] :
+      amount * coffeeprice
+  
+    elif order == menulist[1]:
+      amount * muffprice
+      
